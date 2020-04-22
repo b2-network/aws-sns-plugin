@@ -38,7 +38,7 @@
 	<?php
 	
 			 
-			require ABSPATH . 'wp-content/plugins/'. $this->plugin_name .'/sdk/aws_v2.8.27/aws-autoloader.php';
+			require ABSPATH . 'wp-content/plugins/'. $this->plugin_name .'/sdk/vendor/autoload.php';
 			
 			use Aws\Sns\SnsClient;
 			
@@ -138,7 +138,7 @@
 						<td>Select Topic: </td>
 						<td>
 							<select name="topic" id="topic">
-								<?
+								<?php
 									// parse topic array
 									$arrTopics = $topicList->get('Topics');
 									foreach ($arrTopics as $topic) {

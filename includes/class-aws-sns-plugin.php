@@ -69,7 +69,7 @@ class Aws_Sns_Plugin {
 	public function __construct() {
 
 		$this->plugin_name = 'aws-sns-plugin';
-		$this->version = '1.0.0';
+		$this->version = '1.0.1';
 
 		$this->load_dependencies();
 		$this->set_locale();

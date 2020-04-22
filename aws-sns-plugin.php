@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://github.com/fayzandotcom/aws-sns-plugin.git
- * @since             1.0.0
+ * @link              https://github.com/b2-network/aws-sns-plugin.git
+ * @since             1.0.1
  * @package           Aws_Sns_Plugin
  *
  * @wordpress-plugin
  * Plugin Name:       AWS SNS Plugin
- * Plugin URI:        https://github.com/fayzandotcom/aws-sns-plugin.git
+ * Plugin URI:        https://github.com/b2-network/aws-sns-plugin.git
  * Description:       Send push notifications to different devices using Amazon Simple Notification Service.
- * Version:           1.0.0
- * Author:            Muhammad Fayzan Siddiqui
- * Author URI:        https://my.linkedin.com/in/fayzansiddiqui
+ * Version:           1.0.1
+ * Author:            Nicolas Belan
+ * Author URI:        https://b2.network/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       aws-sns
